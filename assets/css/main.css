@@ -1073,6 +1073,13 @@ section,
   bottom: 20px;
 }
 
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: black; /* Add black background to fill gaps */
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
