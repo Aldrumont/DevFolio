@@ -44,6 +44,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Resume</a></li> <!-- Added Resume link -->
           <li class="dropdown">
             <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -308,6 +309,82 @@
       </div>
     </section><!-- /Resume Section -->
 
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>Check out some of the projects I developed throughout my professional and academic journey.</p>
+  </div>
+  <div class="container">
+    <!-- Custom Filters -->
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-academic">Master's</li>
+        <li data-filter=".filter-iot">IoT & BIM Integration</li>
+        <li data-filter=".filter-vision">Computer Vision</li>
+        <li data-filter=".filter-gateway">Gateway Configuration</li>
+        <li data-filter=".filter-deploy">Server Deployment</li>
+      </ul>
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+        <!-- Project: InsideGG -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+          <img src="https://github.com/Aldrumont/insidegg/blob/main/assets/output.gif?raw=true" class="img-fluid"
+            alt="InsideGG">
+          <div class="portfolio-info">
+            <h4>InsideGG</h4>
+            <p>Computer vision application for game data analysis</p>
+            <a href="https://github.com/Aldrumont/insidegg/" title="InsideGG" class="details-link" target="_blank">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project: Soccer CV -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+          <video class="img-fluid" autoplay loop muted playsinline>
+            <source src="assets/img/soccer.mp4" type="video/mp4">
+            Your browser does not support video playback.
+          </video>
+          <div class="portfolio-info">
+            <h4>Soccer CV</h4>
+            <p>Computer vision application for analyzing football matches</p>
+            <a href="https://github.com/Aldrumont/soccer_cv" title="Soccer CV" class="details-link" target="_blank">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project: IOT Services -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+          <img src="assets/img/gateway.png" class="img-fluid" alt="Hardware and Gateway Integration">
+          <div class="portfolio-info">
+            <h4>Hardware and Gateway Integration</h4>
+            <p>Server and device configuration to integrate industrial machines with IoT platforms.</p>
+            <a href="https://github.com/Aldrumont/insidegg/" title="Hardware and Gateway Integration" class="details-link" target="_blank">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project: Autodesk IoT -->
+        <!-- Project: Soccer CV -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+          <video class="img-fluid" autoplay loop muted playsinline>
+            <source src="assets/img/aps.mp4" type="video/mp4">
+            Your browser does not support video playback.
+          </video>
+          <div class="portfolio-info">
+            <h4>Smart Sensor Integration with APS</h4>
+            <p>In this project, I seamlessly connected ESP32-powered sensors to a client application using the Autodesk Platform Service. This innovative solution highlights my ability to bridge IoT hardware with cutting-edge cloud services, delivering real-time data integration that stands out.</p>
+            <a href="https://github.com/Aldrumont/soccer_cv" title="Soccer CV" class="details-link" target="_blank">
+              <i class="bi bi-link-45deg"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Additional portfolio items can be added or removed as needed -->
+      </div>
+    </div>
+  </div>
+</section><!-- /Portfolio Section -->
+
     <!-- Services Section -->
     <section id="services" class="services section">
       <div class="container section-title" data-aos="fade-up">
@@ -410,110 +487,6 @@
       </div>
     </section><!-- /Services Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section accent-background">
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0"
-                class="purecounter">232</span>
-              <p>Clients</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0"
-                class="purecounter">521</span>
-              <p>Projects</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0"
-                class="purecounter">1453</span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0"
-                class="purecounter">32</span>
-              <p>Awards</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Stats Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Confira alguns dos projetos que desenvolvi ao longo da minha trajetória profissional e acadêmica.</p>
-      </div>
-      <div class="container">
-        <!-- Filtros personalizados -->
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-academic">Mestrado</li>
-            <li data-filter=".filter-iot">Integração IoT & BIM</li>
-            <li data-filter=".filter-vision">Visão Computacional</li>
-            <li data-filter=".filter-gateway">Configuração Gateway</li>
-            <li data-filter=".filter-deploy">Deploy Servidores</li>
-          </ul>
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <!-- Projeto: InsideGG -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <img src="https://github.com/Aldrumont/insidegg/blob/main/assets/output.gif?raw=true" class="img-fluid"
-                alt="InsideGG">
-              <div class="portfolio-info">
-                <h4>InsideGG</h4>
-                <p>Aplicação de visão computacional para análise de dados de jogos</p>
-                <a href="https://github.com/Aldrumont/insidegg/" title="InsideGG" class="details-link" target="_blank">
-                  <i class="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Projeto: Soccer CV -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <video class="img-fluid" autoplay loop muted playsinline>
-                <source src="assets/img/soccer.mp4" type="video/mp4">
-                Seu navegador não suporta a exibição de vídeos.
-              </video>
-              <div class="portfolio-info">
-                <h4>Soccer CV</h4>
-                <p>Aplicação de visão computacional para análise de partidas de futebol</p>
-                <a href="https://github.com/Aldrumont/soccer_cv" title="Soccer CV" class="details-link" target="_blank">
-                  <i class="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Projeto: IOT Services -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <img src="assets/img/gateway.png" class="img-fluid"
-                alt="InsideGG">
-              <div class="portfolio-info">
-                <h4>Hardware and Gateway Integration</h4>
-                <p>Configuração de Servidores e dispositivos para integrar máquinas industriais à plataformas IoT.</p>
-                <a href="https://github.com/Aldrumont/insidegg/" title="InsideGG" class="details-link" target="_blank">
-                  <i class="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Service 2: Hardware and Gateway Integration -->
-            <!-- (Outros itens do portfolio podem ser mantidos ou removidos conforme necessário) -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
     <section id="testimonials" class="testimonials section accent-background">
       <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -600,6 +573,31 @@
                   platforms. He was always attentive and demonstrated a remarkable ability to simplify complex technical
                   concepts, ensuring clear understanding for our clients. His exceptional vision for innovative
                   solutions truly sets him apart.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- Testimonial 4: Diego Bonagurio -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQEtCMUiDRbsuQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670809420351?e=1747872000&v=beta&t=rA2cW8RppBCDYTohPkU9uCD3JWq_pSFvj6x0Ymv_JVQ"
+                  class="testimonial-img" alt="">
+                <h3>Diego Bonagurio</h3>
+                <h4>Development Project Lead, Appsplix</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Working with Aldrumont was an exceptional experience. In two challenging projects that demanded 
+                  complete system maintenance—from a robust front-end to precise adjustments in the API and 
+                  database—he demonstrated a unique ability to turn technical challenges into creative and efficient solutions.
+
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
