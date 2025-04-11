@@ -229,75 +229,101 @@
         <p>Check out some of the projects I developed throughout my professional and academic journey.</p>
       </div>
       <div class="container">
-        <!-- Custom Filters -->
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <!-- <li data-filter=".filter-academic">Master's</li>
-            <li data-filter=".filter-iot">IoT & BIM Integration</li>
-            <li data-filter=".filter-vision">Computer Vision</li>
-            <li data-filter=".filter-gateway">Gateway Configuration</li>
-            <li data-filter=".filter-deploy">Server Deployment</li> -->
           </ul>
+    
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <!-- Project: InsideGG -->
+            
+            <!-- 1 - InsideGG -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <img src="https://github.com/Aldrumont/insidegg/blob/main/assets/output.gif?raw=true" class="img-fluid"
-                alt="InsideGG">
+              <img src="https://github.com/Aldrumont/insidegg/blob/main/assets/output.gif?raw=true" class="img-fluid" alt="InsideGG">
               <div class="portfolio-info">
                 <h4>InsideGG</h4>
                 <p>Computer vision application for game data analysis</p>
-                <a href="https://github.com/Aldrumont/insidegg/" title="InsideGG" class="details-link" target="_blank">
+                <a href="https://github.com/Aldrumont/insidegg/" class="details-link" target="_blank">
                   <i class="bi bi-link-45deg"></i>
                 </a>
               </div>
             </div>
-            <!-- Project: Soccer CV -->
+    
+            <!-- 2 - Soccer CV -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
               <video class="img-fluid" autoplay loop muted playsinline>
                 <source src="assets/img/soccer.mp4" type="video/mp4">
-                Your browser does not support video playback.
               </video>
               <div class="portfolio-info">
                 <h4>Soccer CV</h4>
                 <p>Computer vision application for analyzing football matches</p>
-                <a href="https://github.com/Aldrumont/soccer_cv" title="Soccer CV" class="details-link" target="_blank">
+                <a href="https://github.com/Aldrumont/soccer_cv" class="details-link" target="_blank">
                   <i class="bi bi-link-45deg"></i>
                 </a>
               </div>
             </div>
-            <!-- Project: IOT Services -->
+    
+            <!-- 3 - Gateway -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <img src="assets/img/gateway.png" class="img-fluid" alt="Hardware and Gateway Integration">
+              <img src="assets/img/gateway.png" class="img-fluid" alt="Gateway Integration">
               <div class="portfolio-info">
                 <h4>Hardware and Gateway Integration</h4>
                 <p>Server and device configuration to integrate industrial machines with IoT platforms.</p>
-                <!-- <a href="https://github.com/Aldrumont/insidegg/" title="Hardware and Gateway Integration" class="details-link" target="_blank" disabled>
-                  <i class="bi bi-link-45deg"></i>
-                </a> -->
               </div>
             </div>
-            <!-- Project: Autodesk IoT -->
+    
+            <!-- 4 - RevitSense -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
               <video class="img-fluid" autoplay loop muted playsinline>
                 <source src="assets/img/aps.mp4" type="video/mp4">
-                Your browser does not support video playback.
               </video>
               <div class="portfolio-info">
-                <h4>RevitSense: Real-Time IoT Data Visualization</h4>
-                <p>This project integrates ESP32-connected sensors with a real-time data visualization platform,
-                  displaying an interactive heatmap over a Revit-developed floorplan.</p>
-                <a href="https://github.com/Aldrumont/revitsense" title="RevitSense GitHub" class="details-link"
-                  target="_blank">
+                <h4>RevitSense</h4>
+                <p>Real-time data visualization using Revit and IoT sensor data</p>
+                <a href="https://github.com/Aldrumont/revitsense" class="details-link" target="_blank">
                   <i class="bi bi-link-45deg"></i>
                 </a>
               </div>
             </div>
-            <!-- Additional portfolio items can be added or removed as needed -->
+    
+            <!-- 5 - Coming Soon -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+              <div style="position: relative;">
+                <video class="img-fluid" autoplay loop muted playsinline>
+                  <source src="assets/img/gim_3x.mp4" type="video/mp4">
+                  Your browser does not support video playback.
+                </video>
+                <div style="
+                  position: absolute;
+                  top: 0; left: 0;
+                  width: 100%; height: 100%;
+                  background-color: rgba(0,0,0,0.5);
+                  display: flex; align-items: center; justify-content: center;
+                  color: white;
+                  font-size: 1.8rem;
+                  font-weight: bold;
+                  font-family: 'Poppins', sans-serif;
+                  text-shadow: 0px 0px 10px #000;
+                  pointer-events: none;
+                ">Coming Soon</div>
+              </div>
+              <div class="portfolio-info">
+                <h4>Gym Assistant</h4>
+                <p>Pose estimation application for gym training support</p>
+              </div>
+            </div>
+    
+            <!-- 6 - Exemplo Extra (caso tenha mais) -->
+            <!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
+              ...
+            </div>
+            -->
+    
           </div>
         </div>
       </div>
-    </section><!-- /Portfolio Section -->
+    </section>
+    
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
