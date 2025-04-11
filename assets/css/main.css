@@ -1665,15 +1665,15 @@ section,
   animation: fadeInUp 0.5s ease forwards;
 }
 
+/* Efeito de zoom ao passar o mouse */
 .portfolio-item {
   overflow: hidden;
   position: relative;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-item:hover {
-  transform: scale(1.25); /* Aqui está o aumento mais forte */
-  z-index: 10;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-  

@@ -238,7 +238,12 @@
             
             <!-- 1 - InsideGG -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <img src="https://github.com/Aldrumont/insidegg/blob/main/assets/output.gif?raw=true" class="img-fluid" alt="InsideGG">
+              <!-- Atualizado para usar o vídeo MP4 -->
+              <a href="assets/img/insidegg.mp4" class="glightbox" data-gallery="portfolio-carousel" data-type="video">
+                <video class="img-fluid" autoplay loop muted playsinline>
+                  <source src="assets/img/insidegg.mp4" type="video/mp4">
+                </video>
+              </a>
               <div class="portfolio-info">
                 <h4>InsideGG</h4>
                 <p>Computer vision application for game data analysis</p>
@@ -250,9 +255,12 @@
     
             <!-- 2 - Soccer CV -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <video class="img-fluid" autoplay loop muted playsinline>
-                <source src="assets/img/soccer.mp4" type="video/mp4">
-              </video>
+              <!-- Modificado para abrir video no carousel -->
+              <a href="assets/img/soccer.mp4" class="glightbox" data-gallery="portfolio-carousel" data-type="video">
+                <video class="img-fluid" autoplay loop muted playsinline>
+                  <source src="assets/img/soccer.mp4" type="video/mp4">
+                </video>
+              </a>
               <div class="portfolio-info">
                 <h4>Soccer CV</h4>
                 <p>Computer vision application for analyzing football matches</p>
@@ -273,9 +281,12 @@
     
             <!-- 4 - RevitSense -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
-              <video class="img-fluid" autoplay loop muted playsinline>
-                <source src="assets/img/aps.mp4" type="video/mp4">
-              </video>
+              <!-- Adicionado o atributo muted para remover o som -->
+              <a href="assets/img/aps.mp4" class="glightbox" data-gallery="portfolio-carousel" data-type="video">
+                <video class="img-fluid" autoplay loop muted playsinline>
+                  <source src="assets/img/aps.mp4" type="video/mp4">
+                </video>
+              </a>
               <div class="portfolio-info">
                 <h4>RevitSense</h4>
                 <p>Real-time data visualization using Revit and IoT sensor data</p>
@@ -288,10 +299,13 @@
             <!-- 5 - Coming Soon -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-vision">
               <div style="position: relative;">
-                <video class="img-fluid" autoplay loop muted playsinline>
-                  <source src="assets/img/gim_3x.mp4" type="video/mp4">
-                  Your browser does not support video playback.
-                </video>
+                <!-- Modificado para abrir video no carousel -->
+                <a href="assets/img/gim_3x.mp4" class="glightbox" data-gallery="portfolio-carousel" data-type="video">
+                  <video class="img-fluid" autoplay loop muted playsinline>
+                    <source src="assets/img/gim_3x.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                  </video>
+                </a>
                 <div style="
                   position: absolute;
                   top: 0; left: 0;
