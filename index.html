@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+  <script>
+    const currentHost = window.location.hostname;
+    if (currentHost === "aldrumont.com" || currentHost === "www.aldrumont.com") {
+      const destination = "https://about.aldrumont.com" + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(destination);
+    }
+  </script>
   <!-- Google tag (gtag.js) -->
   <!-- <script type="text/javascript">
     var _iub = _iub || [];
@@ -11,6 +18,7 @@
   <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
   <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script> -->
   <!-- Google tag (gtag.js) -->
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQB6R1MCZE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
